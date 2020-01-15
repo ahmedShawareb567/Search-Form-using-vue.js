@@ -1,0 +1,86 @@
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+%all{
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
+html{
+    font: normal 1rem sans-serif;
+}
+body{
+    @extend %all;
+    background-color: #581845;
+}
+.SerchSec{
+    position: relative;
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: .3rem;
+    box-shadow: .1rem .2rem .3rem .4rem rgba(0,0,0,.05);
+    margin: 2rem auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 2rem;
+    h2{
+        display: inline-block;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 1rem 0rem;
+        margin-top: 2rem;
+    }
+    input{
+        display: inline-block;
+        width: 70%;
+        height: 3rem;
+        border-radius: .2rem;
+        border: .2rem solid #f30a49;
+        padding-left: 1rem;
+        margin: 1rem auto 1rem auto;
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .itemContent{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: #e4e7ff;
+        box-shadow: .1rem .2rem .3rem .4rem rgba(0,0,0,.02);
+        border-radius: .2rem;
+        overflow: hidden;
+        margin-bottom: 1.6rem;
+        cursor: pointer;
+        i{
+            position: absolute;
+            width: 100%;
+            height: 4rem;
+            background-color: #fff;
+            margin: 0rem;
+            padding:0rem;
+            top:0;
+            left:0;
+            line-height: 4rem;
+            font-size: 1.5rem;
+        }
+        h4{
+            font-size: .7rem;
+            font-weight: bold;
+            padding-top: 5.1rem;
+            cursor: auto;
+        }
+        p{
+            font-size: 1rem;
+            padding: .2rem 0rem;
+            margin-bottom: 0rem;
+            cursor: auto;
+        }
+    }
+}

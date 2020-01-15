@@ -1,0 +1,62 @@
+[
+    {
+        "item_id"   : 1,
+        "item_name" : "book",
+        "item_color": "f02d"
+    },
+    {
+        "item_id"   : 2,
+        "item_name" : "car",
+        "item_color": "f1b9"
+    },
+    {
+        "item_id"   : 3,
+        "item_name" : "facebook",
+        "item_color": "f39e"
+    },
+    {
+        "item_id"   : 4,
+        "item_name" : "youtube",
+        "item_color": "f167"
+    },
+    {
+        "item_id"   : 5,
+        "item_name" : "ambulance",
+        "item_color": "f0f9"
+    },
+    {
+        "item_id"   : 6,
+        "item_name" : "dribbble",
+        "item_color": "f17d"
+    },
+    {
+        "item_id"   : 7,
+        "item_name" : "behance",
+        "item_color": "f1b4"
+    },
+    {
+        "item_id"   : 8,
+        "item_name" : "amazon",
+        "item_color": "f36d"
+    },
+    {
+        "item_id"   : 9,
+        "item_name" : "apple",
+        "item_color": "f179"
+    },
+    {
+        "item_id"   : 10,
+        "item_name" : "angellist",
+        "item_color": "f209"
+    },
+    {
+        "item_id"   : 11,
+        "item_name" : "android",
+        "item_color": "f17b"
+    },
+    {
+        "item_id"   : 12,
+        "item_name" : "anchor",
+        "item_color": "f13d"
+    }
+]

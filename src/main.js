@@ -2,6 +2,11 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import "./scss/mainStyle.scss";
+
+import "jquery";
+import "bootstrap";
+import "popper.js";
 
 Vue.config.productionTip = false;
 
